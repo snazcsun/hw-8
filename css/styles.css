@@ -1,0 +1,190 @@
+/* Color Palette
+# - color 1
+lightgray
+#D3D3D3
+rgb(211,211,211)
+
+# - color 2
+darkslategrey
+#2F4F4F
+rgb(47,79,79)
+
+# - color 3
+antiquewhite
+#FAEBD7
+rgb(250,235,215)
+
+whitesmoke
+#F5F5F5
+rgb(245,245,245)
+
+ivory
+#FFFFF0
+rgb(255,255,240)
+
+# - color 4
+gray
+#808080
+rgb(128,128,128)
+
+black
+#000000
+rgb(0,0,0)
+*/
+
+/* Google Fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 110%;
+    margin: 0;
+}
+h1,h2,h3 {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+p {
+    margin-bottom: 1em;
+}
+a {
+	color: blue;
+}
+a:hover {
+	color: purple;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #FFFFF0;
+    padding-bottom: .2em;
+	border-bottom: 2px solid #000000;
+    position: relative;
+}
+
+header h1{
+    margin: 0;
+}
+
+header h2{
+    margin: 0;
+}
+
+footer {
+	border-top: 2px solid #000000;
+    background: #2F4F4F;
+	text-align: center;
+	font-size: 1em;
+    font-weight: 300;
+    color: #FFFFF0;
+	line-height: 1em;
+}
+
+/* Work Experience
+------------------------------------*/
+.workExp {
+    background: #808080;
+
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #FFFFF0;
+}
+
+/* Skills
+------------------------------------*/
+.skills {
+    background: #F5F5F5;
+}
+
+/* Content-wrap
+------------------------------------*/
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Contact-info
+------------------------------------*/
+.contact-info a {
+    padding: 10px; 
+    display: inline-block;
+} 
+
+/*profile-img
+------------------------------------*/
+.profile-img {
+    border-radius: 50%;
+    /*width: 300px;
+    float: left;
+    margin-right: 30px;*/
+}
+
+/*column-narrow
+------------------------------------*/
+.column-narrow{
+    width: 30%;
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+/*column-narrow
+------------------------------------*/
+.column-wide{
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+/*navigation styling
+------------------------------------*/
+nav{
+    text-align: center;
+    font-size: 1.25em;
+    position: fixed;
+    background: white;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+nav a{
+    padding: 10px;
+}
+navbar{
+    color: blue;
+}
+:target:before {
+    content:"";
+    display:block;
+    height:40px;
+    margin:-40px 0 0;
+    }
+/*bg image styling
+------------------------------------*/
+.image-bg{
+    background: url(Los_Angeles_with_Mount_Baldy.jpg);
+}
+.alpha-bg {
+    background: rgba(0, 119, 181, 0.5);
+}
